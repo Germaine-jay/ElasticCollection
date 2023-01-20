@@ -4,7 +4,8 @@ using ProductCollection.Database;
 using ProductCollection.AppUI;
 
 
-//Collection.ProductList();
+//Collection.Run();
+PropertyList.Properties();
 
-Application.ElasticProductList();
-Application.ListAllProducts();
+/*Application.ElasticProductList();
+Application.ListAllProducts();*/
