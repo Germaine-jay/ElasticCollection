@@ -25,15 +25,7 @@ namespace ProductCollection.AppUI
                         Console.WriteLine("Add Request!....");
 
                         string Request = Console.ReadLine().ToLower();
-
-                        /*foreach (var req in AllSongs.MusicPlayerSongs)
-                        {
-                            if (newsong == Song.Key && !OmahLaySongs.Contains(Song.Value))
-                            {
-                                OmahLaySongs.Add(Song.Value);
-                            }
-                        }*/
-
+                        
                         break;
                     case "n":
                         Validate = false;
