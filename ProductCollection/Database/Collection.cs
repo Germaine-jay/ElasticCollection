@@ -7,8 +7,6 @@ namespace ProductCollection.Database
 {
     public class Collection
     {
-        public static List<dynamic> prodlist = new List<dynamic>();
-
         public static dynamic ListOfProperties = new ExpandoObject();
 
         public static IList<properties> Products = new List<properties>()
