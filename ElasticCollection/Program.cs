@@ -5,7 +5,10 @@ using ProductCollection.AppUI;
 
 
 //Collection.Run();
-PropertyList.Properties();
+//PropertyList.Properties();
 
-/*Application.ElasticProductList();
-Application.ListAllProducts();*/
+//Application.ElasticProductList();
+//Application.ListAllProducts();
+
+//Views.StartApp();
+Views.GetRequest();

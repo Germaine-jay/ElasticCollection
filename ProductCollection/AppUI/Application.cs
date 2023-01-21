@@ -4,8 +4,9 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProductCollection.Database;
 
-namespace ProductCollection.Database
+namespace ProductCollection.AppUI
 {
     public class Application : Collection
     {
@@ -55,10 +56,10 @@ namespace ProductCollection.Database
 
         public static void ListAllProducts()
         {
-            Console.WriteLine("id\tName\t\tQuantity\tPrice\tCategory\tOrderCount");
+            Console.WriteLine("id \t Name \t\t Quantity \t Price \t Category \t OrderCount");
             foreach (var product in Products)
             {
-                Console.WriteLine($"{product.Id}\t{product.Name}\t{product.Quantity}\t{product.Price}\t\t{product.Category}\t{product.OrderCount}");
+                Console.WriteLine($"{product.id} \t {product.name} \t {product.quantity} \t\t {product.price} \t {product.category} \t {product.orderCount}");
             }
             Console.WriteLine();
 

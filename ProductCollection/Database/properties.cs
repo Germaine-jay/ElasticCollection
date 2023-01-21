@@ -6,25 +6,25 @@ namespace ProductCollection.Database
 {
     public class properties
     {
-        public int Id;
-        public string Name;
-        public int Quantity;
-        public double Price;
-        public string Category;
-        public int OrderCount;
+        public int id;
+        public string name;
+        public int quantity;
+        public double price;
+        public string category;
+        public int orderCount;
 
         public properties()
         {
 
         }
-        public properties(int id, string name, int quantity, int price, string category, int ordercount)
+        public properties(int Id, string Name, int Quantity, int Price, string Category, int Ordercount)
         {
-            Id = id;
-            Name = name;
-            Quantity = quantity;
-            Price = price;
-            Category = category;
-            OrderCount = ordercount;
+            id = Id;
+            name = Name;
+            quantity =  Quantity;
+            price = Price;
+            category = Category;
+            orderCount = Ordercount;
         }
     }
 }
