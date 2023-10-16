@@ -3,6 +3,8 @@ using ProductCollection.AppUI;
 
 
 
-PropertyList.ListAllProducts();
-Application.StartApp();
-Views.GetRequest();
+//PropertyList.ListAllProducts();
+//Application.StartApp();
+//Views.GetRequest();
+Collection.propList();
+Collection.use();

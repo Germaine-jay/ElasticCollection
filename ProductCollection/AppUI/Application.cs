@@ -53,7 +53,6 @@ namespace ProductCollection.AppUI
             }
         }
 
-
         public static void ListAllProducts()
         {
             Console.WriteLine("id \t Name \t\t Quantity \t Price \t Category \t OrderCount");
